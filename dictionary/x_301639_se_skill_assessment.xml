@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_301639_se_skill_assessment" type="collection">
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="1" label="Proficiency level" max_length="40" name="proficiency_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Conceptual/Trained" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Experienced" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Expert" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Guru" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Skill" max_length="32" name="skill" reference="x_301639_se_skill" type="reference"/>
+        <element label="Submission" max_length="32" name="submission" reference="x_301639_se_submission" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

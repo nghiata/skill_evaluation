@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="proficiencies level" language="en" table="x_301639_se_proficiencies_level">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>proficiencies level</label>
+            <language>en</language>
+            <name>x_301639_se_proficiencies_level</name>
+            <plural>proficiencies levels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 15:33:44</sys_created_on>
+            <sys_id>1d61bed8db9323001f7f2a9a489619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>proficiencies level</sys_name>
+            <sys_package display_value="Skill Evaluation" source="x_301639_se">132c75d4db1323001f7f2a9a48961982</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation">132c75d4db1323001f7f2a9a48961982</sys_scope>
+            <sys_update_name>sys_documentation_x_301639_se_proficiencies_level__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 15:33:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

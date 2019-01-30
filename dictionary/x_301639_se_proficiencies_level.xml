@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="proficiencies level" max_length="40" name="x_301639_se_proficiencies_level" type="collection">
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>

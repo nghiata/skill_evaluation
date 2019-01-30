@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="states" max_length="40" name="x_301639_se_states" type="collection">
+        <element label="State label" max_length="40" name="state_label" type="string"/>
+        <element label="State value" max_length="40" name="state_value" type="string"/>
+    </element>
+</database>
